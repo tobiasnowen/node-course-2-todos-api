@@ -4,11 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon app/index.js"
+    "start": "nodemon app"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
     "mongodb": "^2.2.29",
+    "mongoose": "^4.10.8",
     "nodemon": "^1.11.0",
     "path": "^0.12.7",
     "rxjs": "^5.4.1",
