@@ -17,6 +17,12 @@ app.post('/todos', (req, res) => {
         .catch(er => res.status(400).json({message: er.message}));
 });
 
+app.get('/todos', (req, res) => {
+    Todo.find()
+        .then(todos => res.json({todos}))
+        .catch(er => res.json({message: er.message}));
+});
+
 app.listen(port, () => {
     console.log(`Running on port ${port}`);
 });
