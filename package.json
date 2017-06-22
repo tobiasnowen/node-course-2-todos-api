@@ -1,0 +1,17 @@
+{
+  "name": "udemy_the-complete-nodejs-developer-course-2_todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app/index.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "mongodb": "^2.2.29",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "rxjs": "^5.4.1",
+    "yargs": "^8.0.2"
+  }
+}
