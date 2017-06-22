@@ -3,7 +3,7 @@ const {MongoClient, ObjectID} = require('mongodb');
 
 MongoClient.connect('mongodb://localhost:27017/TodoApp', (er, db) => {
     if (er) {
-        console.log('Unable to connect to MondoDB server!');
+        console.log('Unable to connect to MondoDB server!!');
         return;
     }
 
